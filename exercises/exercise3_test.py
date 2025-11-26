@@ -61,4 +61,4 @@ def test_all_invalid():
     result = process_events(input_data)
 
     assert len(result["validEvents"]) == 0
-    assert len(result["invalidEvents"]) == 3)
+    assert len(result["invalidEvents"]) == 3
